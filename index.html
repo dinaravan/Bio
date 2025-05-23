@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Science Sketchbook</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      background-color: #eee;
+      padding: 1em;
+    }
+    nav a {
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2em;
+    }
+    .card {
+      background-color: white;
+      padding: 1em;
+      margin-bottom: 1.5em;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .portfolio img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Science Sketchbook</h1>
+    <p>Explaining biology one comic at a time</p>
+  </header>
+
+  <nav>
+    <a href="#blog">Blog</a>
+    <a href="#portfolio">Comics</a>
+    <a href="#zine">Zine</a>
+    <a href="#about">About Me</a>
+  </nav>
+
+  <div class="container">
+    <section id="blog">
+      <h2>Latest Blog Posts</h2>
+      <div class="card">
+        <h3>Why Genes Aren't Destiny</h3>
+        <p>This week we look at epigenetics and how your lifestyle can flip gene switches...</p>
+      </div>
+      <div class="card">
+        <h3>How Viruses Hijack Cells</h3>
+        <p>Learn how viruses like influenza and COVID-19 replicate by hijacking our biology...</p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <h2>Biology Comics</h2>
+      <div class="card">
+        <img src="your-comic1.jpg" alt="DNA Replication Comic" />
+        <p><strong>DNA Replication Made Funny</strong></p>
+      </div>
+      <div class="card">
+        <img src="your-comic2.jpg" alt="Immune System Comic" />
+        <p><strong>Your Immune System is Basically a Superhero Team</strong></p>
+      </div>
+    </section>
+
+    <section id="zine">
+      <h2>Download My Biology Zine</h2>
+      <div class="card">
+        <p><a href="zine.pdf" download>Click here to download the PDF</a></p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>I'm a Grade 12 student passionate about life sciences and art. I use comics to simplify biology and make it fun for others — and to help myself learn better too!</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

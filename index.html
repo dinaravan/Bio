@@ -4,126 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dina's Science Hub</title>
-  <link rel="stylesheet" href="style.css">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #121212;
-      color: #f0f0f0;
+      font-family: 'Times New Roman', 'Liberation Sans', serif;
+      background-color: #111;
+      color: #f1f1f1;
+      line-height: 1.6;
     }
 
     header {
-      background-color: #1f1f1f;
+      background-color: #000;
       padding: 2rem;
       text-align: center;
+      border-bottom: 1px solid #444;
     }
 
     header h1 {
-      margin: 0;
       font-size: 2.5rem;
+      margin: 0;
+      letter-spacing: 1px;
     }
 
-    header p {
-      margin: 0.5rem 0 1.5rem;
-      font-style: italic;
-      color: #aaa;
+    nav {
+      margin-top: 1rem;
     }
 
     nav a {
-      color: #90caf9;
       margin: 0 1rem;
       text-decoration: none;
-      font-weight: bold;
+      color: #f1f1f1;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border 0.3s ease;
     }
 
     nav a:hover {
-      text-decoration: underline;
+      border-bottom: 2px solid #888;
     }
 
-    .intro, .highlights {
+    main {
+      padding: 2rem;
       max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-
-    .highlights {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .card {
-      background-color: #1e1e1e;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    }
-
-    .card h3 {
-      margin-top: 0;
-      color: #90caf9;
-    }
-
-    .card a {
-      color: #ffab91;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .card a:hover {
-      text-decoration: underline;
+      margin: auto;
     }
 
     footer {
       text-align: center;
-      padding: 1rem;
-      background-color: #1f1f1f;
+      padding: 2rem;
+      background-color: #000;
+      color: #666;
       font-size: 0.9rem;
-      color: #aaa;
+      border-top: 1px solid #444;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Dina's Science Hub</h1>
-    <p>Exploring life through science, art, and curiosity</p>
     <nav>
-      <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
-      <a href="portfolio.html">Portfolio</a>
       <a href="zine.html">Zine</a>
+      <a href="portfolio.html">Portfolio</a>
       <a href="about.html">About</a>
     </nav>
   </header>
-
   <main>
-    <section class="intro">
-      <h2>Welcome</h2>
-      <p>Welcome to my personal science hub, where I blend curiosity with creativity. I share thoughts, essays, comics, and digital art—everything I learn and love about biology and the life sciences.</p>
-    </section>
-
-    <section class="highlights">
-      <div class="card">
-        <h3>Weekly Blog</h3>
-        <p>Read my mini essays where I break down complex biology ideas into clear, engaging stories.</p>
-        <a href="blog.html">Explore Blog</a>
-      </div>
-      <div class="card">
-        <h3>Visual Zine</h3>
-        <p>A creative digital magazine filled with my illustrated interpretations of biology concepts.</p>
-        <a href="zine.html">View Zine</a>
-      </div>
-      <div class="card">
-        <h3>Art & Portfolio</h3>
-        <p>See the digital artworks, comics, and sketches I’ve made while learning science.</p>
-        <a href="portfolio.html">See Portfolio</a>
-      </div>
-    </section>
+    <h2>Welcome to my personal science hub</h2>
+    <p>Where I blend curiosity with creativity. Explore biology through visual storytelling, comics, zines, essays, and a personal take on life sciences.</p>
   </main>
-
   <footer>
-    <p>&copy; 2025 Dina Ravan. All rights reserved.</p>
+    &copy; 2025 Dina Ravan. All rights reserved.
   </footer>
 </body>
 </html>
